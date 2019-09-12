@@ -8,12 +8,10 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 
 import com.cucumber.baseclass.BaseClass;
-import com.cucumberpractice.properties.FileDataManager;
 
 import cucumber.api.CucumberOptions;
 
 import cucumber.api.junit.Cucumber;
-import com.cucumber.listener.Reporter;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin= {
@@ -26,8 +24,7 @@ public class TestRunner extends BaseClass {
 	
 	public static void beforeclass() throws Throwable {
 		System.out.println("Driver Initialization");
-		String browserName = FileDataManager.fdm.getCr().getBrowserName();
-		driver = getBrowser(browserName);
+		driver = getBrowser("chrome");
 
 	}
 
@@ -35,7 +32,6 @@ public class TestRunner extends BaseClass {
 	public static void afterclass() {
 		System.out.println("Driver Quit");
 		// driverQuit(driver);
-		Reporter.loadXMLConfig(new File(System.getProperty("user.dir") + "\\src\\test\\java\\com\\cucumberpractice\\properties\\extent-config.xml"));
 
 	}
 }
