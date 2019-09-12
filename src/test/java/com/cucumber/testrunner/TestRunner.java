@@ -16,7 +16,7 @@ import cucumber.api.junit.Cucumber;
 import com.cucumber.listener.Reporter;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(plugin= {"com.cucumber.listener.ExtentCucumberFormatter:src\\test\\resource\\com\\cucumber\\reports\\extentreports\\extentreport.html", 
+@CucumberOptions(plugin= {
 		"pretty", "json:src\\test\\resource\\com\\cucumber\\reports\\report.json", "junit:src\\test\\resource\\com\\cucumber\\reports\\report.xml", "html:src\\test\\resource\\com\\cucumber\\reports"},
 
 		features = "src\\test\\java\\com\\cucumber\\featureFile\\MakeMyTrip.feature", glue = "com.cucumber.stepdefinition", dryRun = false, strict=true, monochrome=true, tags = "@testfeature")
