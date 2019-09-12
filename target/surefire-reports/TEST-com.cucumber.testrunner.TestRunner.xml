@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.cucumber.testrunner.TestRunner" time="25.798" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.cucumber.testrunner.TestRunner" time="0.587" tests="0" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_212\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\Yuvish\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf825368321586832305.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Yuvish\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2444761188498076358.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_212\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jdk1.8.0_212/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_212/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_212/bin/../jre/lib/amd64;C:\Program Files\Java\jdk1.8.0_212\bin;C:\App\apache-maven-3.6.1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;;C:\Users\Yuvish\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,11 +60,4 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Given user launch the AutomationPractice application" classname="Scenario: Verify the customer or user is able to login the application" time="0.004"/>
-  <testcase name="When User click on the signin button in the header" classname="Scenario: Verify the customer or user is able to login the application" time="0"/>
-  <testcase name="And User Enter email id in Signin Page" classname="Scenario: Verify the customer or user is able to login the application" time="0"/>
-  <testcase name="And User Enter Password in Signin page" classname="Scenario: Verify the customer or user is able to login the application" time="0"/>
-  <testcase name="And User click on signin button in signin page" classname="Scenario: Verify the customer or user is able to login the application" time="0"/>
-  <testcase name="Then User Verify the username displayed in the header" classname="Scenario: Verify the customer or user is able to login the application" time="0"/>
-  <testcase name="Scenario: Verify the customer or user is able to login the application" classname="Scenario: Verify the customer or user is able to login the application" time="0"/>
 </testsuite>

@@ -1,5 +1,5 @@
 Feature: AutomationPractice End To End Test Case
-
+@test
 Scenario: Verify the customer or user is able to login the application
 Given user launch the AutomationPractice application   	
 When User click on the signin button in the header

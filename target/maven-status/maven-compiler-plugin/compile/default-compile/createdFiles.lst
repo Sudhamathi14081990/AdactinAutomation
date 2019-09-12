@@ -1,0 +1,8 @@
+com\cucumber\pom\LoginPage.class
+com\cucumber\pom\PaymentPage.class
+com\cucumber\baseclass\BaseClass.class
+com\cucumber\pom\AddToCartPage.class
+com\cucumber\pom\ItemsPage.class
+com\cucumber\pom\OrderPage.class
+com\cucumber\pom\ContactUsPage.class
+com\cucumber\pom\HomePage.class
